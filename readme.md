@@ -1,3 +1,5 @@
+This is a fork from knreise/L.TileLayer.Kartverket that is updated to work in May 2025.
+
 L.TileLayer.Kartverket
 ======================
 
@@ -24,7 +26,7 @@ or, more verbose:
 
     var layer = new L.TileLayer.Kartverket('layer_name', options);
 
-Where ``layer_name`` is the name of a layer from kartverket, and ``options`` is 
+Where ``layer_name`` is the name of a layer from kartverket, and ``options`` is
 a set of [TileLayer options][tl-options]
 
 To get a list of layer names, call:
@@ -39,7 +41,7 @@ See [the demo page][demo].
 
 License
 -------
-This plugin is licensed under the Apache Software License, Version 1.1, 
+This plugin is licensed under the Apache Software License, Version 1.1,
 see LICENSE.md
 
 Background

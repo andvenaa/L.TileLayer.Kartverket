@@ -5,8 +5,7 @@
 
     L.TileLayer.Kartverket = L.TileLayer.extend({
 
-        baseUrl: 'https://opencache{s}.statkart.no/gatekeeper/gk/gk.open_gmaps?'
-               + 'layers={layer}&zoom={z}&x={x}&y={y}',
+        baseUrl: 'https://cache.kartverket.no/v1/wmts/1.0.0/{layer}/default/webmercator/{z}/{y}/{x}.png',
 
         options: {
             maxNativeZoom: 18,
@@ -15,41 +14,23 @@
         },
 
         mappings: {
-            kartdata2: 'topo4',
-            norgeskart_bakgrunn: 'topo4',
+            kartdata2: 'topo',
+            norgeskart_bakgrunn: 'topo',
             sjo_hovedkart2: 'sjokartraster',
-            toporaster: 'toporaster3',
-            topo2: 'topo4',
-            topo2graatone: 'topo4graatone'
         },
 
         layers: [
-            'matrikkel_bakgrunn2',
-            'topo4',
-            'topo4graatone',
-            'europa',
-            'toporaster3',
+            'topo',
+            'topograatone',
+            'toporaster',
             'sjokartraster',
-            'norges_grunnkart',
-            'norges_grunnkart_graatone',
-            'egk',
-            'terreng_norgeskart',
-            'havbunn_grunnkart',
-            'bakgrunnskart_forenklet'
         ],
 
         layerNames: [
-            'Matrikkel bakgrunn',
             'Topografisk norgeskart',
             'Topografisk norgeskart gråtone',
-            'Europakart',
-            'Topografisk norgeskart, raster',
+            'Topografisk norgeskart raster',
             'Sjøkart hovedkartserien',
-            'Norges Grunnkart',
-            'Norges grunnkart gråtone',
-            'Europeisk grunnkart',
-            'Terreng',
-            'Havbunn grunnkart',
             null
         ],
 

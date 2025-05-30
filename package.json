@@ -1,6 +1,6 @@
 {
   "name": "tilelayer-kartverket",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Leaflet plugin for easy adding of tiles from Kartverket",
   "main": "L.TileLayer.Kartverket.js",
   "scripts": {
@@ -15,14 +15,14 @@
   "author": "Atle Frenvik Sveen",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "uglify-js": "^3.3.20"
+    "uglify-js": "^3.19.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knreise/L.TileLayer.Kartverket.git"
+    "url": "git+https://github.com/andvenaa/L.TileLayer.Kartverket.git"
   },
   "bugs": {
-    "url": "https://github.com/knreise/L.TileLayer.Kartverket/issues"
+    "url": "https://github.com/andvenaa/L.TileLayer.Kartverket/issues"
   },
-  "homepage": "https://github.com/knreise/L.TileLayer.Kartverket"
+  "homepage": "https://github.com/andvenaa/L.TileLayer.Kartverket"
 }
